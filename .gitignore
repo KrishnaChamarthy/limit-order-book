@@ -1,0 +1,12 @@
+# Build directories
+build/
+bin/
+lib/
+CMakeCache.txt
+CMakeFiles/
+*.o
+*.a
+*.dylib
+
+# macOS specific
+.DS_Store
