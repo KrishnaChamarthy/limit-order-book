@@ -88,7 +88,3 @@ Measure your machine's hardware latency:
 - Replace `std::unordered_map` with a custom Robin Hood hash table for denser cache locality during order cancellations.
 - Implement `__builtin_prefetch` instructions to pull upcoming memory pool nodes into the L1 cache before the CPU pipeline demands them.
 - Wrap the engine in a kernel-bypass UDP network socket (e.g., Solarflare / OpenOnload) to ingest standard ITCH market data.
-
-```
-
-```
