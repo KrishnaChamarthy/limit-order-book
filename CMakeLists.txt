@@ -20,3 +20,8 @@ add_library(core_engine
 # The main executable
 add_executable(lob_app src/main.cpp)
 target_link_libraries(lob_app PRIVATE core_engine)
+
+enable_testing()
+add_subdirectory(tests)
+
+add_subdirectory(benchmarks)
